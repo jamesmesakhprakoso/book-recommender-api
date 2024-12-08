@@ -21,8 +21,8 @@ steps:
     - 'managed'
     - '--allow-unauthenticated'
 
-# Specify Cloud Build substitutions
-substitutions:
-  _REGION: 'us-central1'
+options:
+  logging: CLOUD_LOGGING_ONLY
+
 
 timeout: '1200s'
